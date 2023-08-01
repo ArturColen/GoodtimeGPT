@@ -1,6 +1,8 @@
 # ChatGPT clone
 In order to learn more about web development with JavaScript/TypeScript, I developed a physical, working copy of ChatGPT in a [B7Web](https://b7web.com.br/) class. 
 
+![Image of the GoodtimeGPT project](https://github.com/ArturColen/GoodtimeGPT/assets/96635074/6a770738-16dc-4bb0-b20d-8d71539519e2)
+
 ## 🔨 Project functionality
 Through data received from the OpenAI API, the program seeks to answer "all" your questions with the use of artificial intelligence (AI) quickly and intuitively.
 
