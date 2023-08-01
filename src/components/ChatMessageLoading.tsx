@@ -1,4 +1,4 @@
-import IconOpenai from "./icons/IconOpenai";
+import IconOpenai from './icons/IconOpenai';
 
 export const ChatMessageLoading = () => {
     return (

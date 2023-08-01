@@ -1,14 +1,14 @@
-"use client"
+'use client'
 
-import { ChatArea } from "@/components/ChatArea";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Sidebar } from "@/components/Sidebar";
-import { SidebarChatButton } from "@/components/SidebarChatButton";
-import { Chat } from "@/types/Chat";
-import { openai } from "@/utils/openai";
-import { useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
+import { ChatArea } from '@/components/ChatArea';
+import { Footer } from '@/components/Footer';
+import { Header } from '@/components/Header';
+import { Sidebar } from '@/components/Sidebar';
+import { SidebarChatButton } from '@/components/SidebarChatButton';
+import { Chat } from '@/types/Chat';
+import { openai } from '@/utils/openai';
+import { useEffect, useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const Page = () => {
   const [sidebarOpened, setSidebarOpened] = useState(false);

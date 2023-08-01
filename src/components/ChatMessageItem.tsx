@@ -1,6 +1,6 @@
-import { ChatMessage } from "@/types/ChatMessage"
-import IconUser from "./icons/IconUser";
-import IconOpenai from "./icons/IconOpenai";
+import { ChatMessage } from '@/types/ChatMessage';
+import IconUser from './icons/IconUser';
+import IconOpenai from './icons/IconOpenai';
 
 type Props = {
     item: ChatMessage;

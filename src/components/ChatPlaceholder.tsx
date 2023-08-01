@@ -1,6 +1,6 @@
-import IconFlashOutline from "./icons/IconFlashOutline";
-import IconSunTwentyFour from "./icons/IconSunTwentyFour";
-import IconWarningSharp from "./icons/IconWarningSharp";
+import IconFlashOutline from './icons/IconFlashOutline';
+import IconSunTwentyFour from './icons/IconSunTwentyFour';
+import IconWarningSharp from './icons/IconWarningSharp';
 
 export const ChatPlaceholder = () => {
     return (

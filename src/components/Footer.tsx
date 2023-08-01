@@ -1,4 +1,4 @@
-import { ChatMessageInput } from "./ChatMessageInput";
+import { ChatMessageInput } from './ChatMessageInput';
 
 type Props = {
     disabled: boolean;
@@ -11,7 +11,7 @@ export const Footer = ({ disabled, onSendMessage }: Props) => {
             <div className="max-w-4xl m-auto">
                 <ChatMessageInput disabled={disabled} onSend={onSendMessage} />
                 <div className="pt-3 text-center text-xs text-gray-300">
-                    Desenvolvido por Artur Bomtempo. Acesse meu GitHub clicando <a href="https://github.com/ArturColen" className="underline" target="blank">aqui.</a>
+                    Desenvolvido por Artur Bomtempo. Acesse meu GitHub clicando <a href="https://github.com/ArturColen" className="underline" target="blank">aqui</a>.
                 </div>
             </div>
         </footer>

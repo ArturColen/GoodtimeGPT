@@ -1,5 +1,5 @@
-import { ChatMessage } from "@/types/ChatMessage";
-import { ChatCompletionRequestMessage, Configuration, OpenAIApi } from "openai";
+import { ChatMessage } from '@/types/ChatMessage';
+import { ChatCompletionRequestMessage, Configuration, OpenAIApi } from 'openai';
 
 const config = new Configuration({apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY});
 const api = new OpenAIApi(config);

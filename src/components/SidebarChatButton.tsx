@@ -1,10 +1,10 @@
-import { Chat } from "@/types/Chat";
-import { useState } from "react";
-import IconChatLeft from "./icons/IconChatLeft";
-import IconTrash from "./icons/IconTrash";
-import IconEdit3 from "./icons/IconEdit3";
-import IconClose from "./icons/IconClose";
-import IconCheck from "./icons/IconCheck";
+import { Chat } from '@/types/Chat';
+import { useState } from 'react';
+import IconChatLeft from './icons/IconChatLeft';
+import IconTrash from './icons/IconTrash';
+import IconEdit3 from './icons/IconEdit3';
+import IconClose from './icons/IconClose';
+import IconCheck from './icons/IconCheck';
 
 type Props = {
     chatItem: Chat;

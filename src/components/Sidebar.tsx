@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
-import IconClose from "./icons/IconClose";
-import IconAdd from "./icons/IconAdd";
-import { SidebarButton } from "./SidebarButton";
-import IconTrash from "./icons/IconTrash";
+import { ReactNode } from 'react';
+import IconClose from './icons/IconClose';
+import IconAdd from './icons/IconAdd';
+import { SidebarButton } from './SidebarButton';
+import IconTrash from './icons/IconTrash';
 
 type Props = {
     children: ReactNode;

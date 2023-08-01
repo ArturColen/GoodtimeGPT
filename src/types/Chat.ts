@@ -1,4 +1,4 @@
-import { ChatMessage } from "./ChatMessage";
+import { ChatMessage } from './ChatMessage';
 
 export type Chat = {
     id: string;
