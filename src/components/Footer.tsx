@@ -11,8 +11,7 @@ export const Footer = ({ disabled, onSendMessage }: Props) => {
             <div className="max-w-4xl m-auto">
                 <ChatMessageInput disabled={disabled} onSend={onSendMessage} />
                 <div className="pt-3 text-center text-xs text-gray-300">
-                    Desenvolvido por Artur Bomtempo. <br />
-                    <a href="https://github.com/ArturColen" className="underline" target="blank">Acesse meu GitHub clicando aqui.</a>
+                    Desenvolvido por Artur Bomtempo. Acesse mei GitHub clicando <a href="https://github.com/ArturColen" className="underline" target="blank">aqui.</a>
                 </div>
             </div>
         </footer>
