@@ -46,8 +46,8 @@ const Page = () => {
       }
     }
 
-      setChatList(chatListClone);
-      setAILoading(false);
+    setChatList(chatListClone);
+    setAILoading(false);
   }
 
   const handleClearConversations = () => {
