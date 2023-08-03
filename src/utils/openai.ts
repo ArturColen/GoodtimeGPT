@@ -14,7 +14,8 @@ export const openai = {
             });
     
             return response.data.choices[0]?.message?.content;
-        } catch (error) {
+        }
+        catch (error) {
             return undefined;
         }
     },

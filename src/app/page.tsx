@@ -77,7 +77,8 @@ const Page = () => {
       }, ...chatList]);
 
       setChatActiveId(newChatId);
-    } else {
+    }
+    else {
       let chatListClone = [...chatList];
       let chatIndex = chatListClone.findIndex(item => item.id === chatActiveId);
 
