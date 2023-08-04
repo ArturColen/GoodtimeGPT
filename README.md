@@ -9,7 +9,8 @@ Through data received from the OpenAI API, the program seeks to answer "all" you
 ## 💻 Technologies used
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): base programming language of the project
 * [TypeScript](https://www.typescriptlang.org/pt/docs/): programming language developed to add advanced features to JavaScript, such as static typing and interfaces
-* [ReactJS](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
+* [Node.js](https://nodejs.org/pt-br/docs): allows the execution of JavaScript code outside the browser
+* [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Next.js](https://nextjs.org/docs): provides a number of additional features to React to facilitate the development of web applications
 * [Tailwind CSS](https://v2.tailwindcss.com/docs): CSS framework used to style pages in a faster and more practical way
 * [OpenAI API](https://platform.openai.com/docs/introduction): integrar a inteligência artificial desenvolvida pela OpenAI ao projeto
