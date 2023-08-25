@@ -19,7 +19,12 @@ export const ChatArea = ({ chat, loading }: Props) => {
     return (
         <section ref={scrollArea} className="flex-auto h-0 overflow-y-scroll">
             {!chat && <ChatPlaceholder />}
-            {chat && chat.messages.map(item => (<ChatMessageItem key={item.id} item={item} />))}
+            {chat && chat.messages.map(item => (
+                <ChatMessageItem
+                    key={item.id}
+                    item={item}
+                />
+            ))}
             {loading && <ChatMessageLoading />}
         </section>
     );

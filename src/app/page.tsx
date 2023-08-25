@@ -33,7 +33,7 @@ const Page = () => {
     let chatIndex = chatListClone.findIndex(item => item.id === chatActiveId);
 
     if (chatIndex > -1) {
-      const response = await openai.generate(
+      const response = await openai.generate (
         openai.translateMessages(chatListClone[chatIndex].messages)
       );
 
@@ -123,13 +123,30 @@ const Page = () => {
     <main className="flex min-h-screen bg-gpt-gray">
       <Sidebar open={sidebarOpened} onClose={closeSidebar} onClear={handleClearConversations} onNewChat={handleNewChat}>
         {chatList.map(item => (
-          <SidebarChatButton key={item.id} chatItem={item} active={item.id === chatActiveId} onClick={handleSelectChat} onDelete={handleDeleteChat} onEdit={handleEditChat} />
+          <SidebarChatButton
+            key={item.id}
+            chatItem={item}
+            active={item.id === chatActiveId}
+            onClick={handleSelectChat}
+            onDelete={handleDeleteChat}
+            onEdit={handleEditChat}
+          />
         ))}
       </Sidebar>
       <section className="flex flex-col w-full">
-        <Header openSidebarClick={openSidebar} title={ chatActive ? chatActive.title : 'Nova conversa' } newChatClick={handleNewChat} />
-        <ChatArea chat={chatActive} loading={AILoading} />
-        <Footer onSendMessage={handleSendMessage} disabled={AILoading} />
+        <Header
+          openSidebarClick={openSidebar}
+          title={chatActive ? chatActive.title : 'Nova conversa'}
+          newChatClick={handleNewChat}
+        />
+        <ChatArea
+          chat={chatActive}
+          loading={AILoading}
+        />
+        <Footer
+          onSendMessage={handleSendMessage}
+          disabled={AILoading}
+        />
       </section>
     </main>
   );

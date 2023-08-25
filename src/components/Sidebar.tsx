@@ -25,7 +25,11 @@ export const Sidebar = ({ open, onClose, onClear, onNewChat, children }: Props) 
                         {children}
                     </nav>
                     <div className="border-t border-gray-700 pt-2">
-                        <SidebarButton icon={<IconTrash width={16} height={16} />} label="Limpar todas as conversas" onClick={onClear} />
+                        <SidebarButton
+                            icon={<IconTrash width={16} height={16} />}
+                            label="Limpar todas as conversas"
+                            onClick={onClear}
+                        />
                     </div>
                 </div>
                 <div onClick={onClose} className="flex justify-center items-center w-10 h-10 cursor-pointer md:hidden">
