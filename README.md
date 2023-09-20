@@ -13,7 +13,7 @@ Through data received from the OpenAI API, the program seeks to answer "all" you
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Next.js](https://nextjs.org/docs): provides a number of additional features to React to facilitate the development of web applications
 * [Tailwind CSS](https://v2.tailwindcss.com/docs): CSS framework used to style pages in a faster and more practical way
-* [OpenAI API](https://platform.openai.com/docs/introduction): integrar a inteligência artificial desenvolvida pela OpenAI ao projeto
+* [OpenAI API](https://platform.openai.com/docs/introduction): integrate the artificial intelligence developed by OpenAI into the project
 
 ## 📁 Project access
 You can view the hosted page by clicking [here](https://goodtimegpt.vercel.app/).
