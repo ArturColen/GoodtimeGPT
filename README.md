@@ -18,6 +18,4 @@ Through data received from the OpenAI API, the program seeks to answer "all" you
 ## 📁 Project access
 You can view the hosted page by clicking [here](https://goodtimegpt.vercel.app/).
 
-##
-
 **Observation:** if you are not receiving chat replies, you may need to manually configure your OpenAI API key. To do this, clone [this project's repository](https://github.com/ArturColen/GoodtimeGPT.git), create an `.env` file and set your API key in the field provided in the file (see the .env.example).
